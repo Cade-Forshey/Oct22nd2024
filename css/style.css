@@ -1,3 +1,21 @@
+/* Color pallete
+3E5769 dark blue
+5A7383 light blue
+EDAC44 goldish yellow
+6D3615 warm brown
+C4A7A1 bland
+EN COLOR PALLETE*/
+
+/*FONTS*
+font-family: "Henny Penny", system-ui;
+font-family: "Road Rage", sans-serif;
+font-family: "Eater", serif;
+font-family: "Irish Grover", system-ui;
+font-family: "Creepster", system-ui;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Eater&family=Henny+Penny&family=Irish+Grover&family=Road+Rage&display=swap');
+/*FONTS*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +24,7 @@
 }
 
 body {
-    background-image: linear-gradient(#1c0125, #1c0125aa);
+    background-image: linear-gradient(#0b2130,#112e419a );
     height: 100vh;
 }
 
@@ -27,6 +45,7 @@ a {
 
 .main-nav {
     margin-top: 5px;
+
 }
 
 .logo a,
@@ -35,14 +54,17 @@ a {
     text-transform: uppercase;
     text-align: center;
     display: block;
+    font-family: "Henny Penny", system-ui;
+    color: #864843;
 }
 
 .main-nav a {
     color: #96e194;
-    font-size: .99em;
+    font-size: 1.3em;
+    font-family: "Creepster", system-ui;
 }
 .main-nav a:hover {
-    color: #ff9505;
+    color: #f5a22d;
 }
 
 .header {
