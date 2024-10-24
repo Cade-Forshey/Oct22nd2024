@@ -56,7 +56,7 @@ a {
     text-align: center;
     display: block;
     font-family: "Nosifer", sans-serif;
-    color: #864843;
+    color: red;
 }
 
 .main-nav a {
@@ -105,9 +105,48 @@ img {
 
 /*==================================
           CSS GRID RULES
-==================================*/          
+==================================*/ 
 
-/*------Tablet Media Query------*/
+.container {
+    display: grid;
+}
+
+.one {
+    min-height: 250px;
+    background-color: darkcyan;
+}
+
+.two {
+    min-height: 250px;
+    background-color: #96e194;
+}
+
+.three {
+    min-height: 250px;
+    background-color: darkcyan;
+}
+
+.four {
+    min-height: 250px;
+    background-color: #96e194;
+}
+
+.five {
+    min-height: 250px;
+    background-color: darkcyan;
+}
+
+.six {
+    min-height: 250px;
+    background-color: #96e194;
+}
+
+.seven {
+    min-height: 250px;
+    background-color: darkcyan;
+}
+
+/*======================Tablet Media Query=========================*/
 @media screen and (min-width: 769px) {
  
     .header,
@@ -125,10 +164,55 @@ img {
         }
     }
 
-}
-/*---------END OF TABLET QUERY----------*/
+    #hero {
+        min-height: 500px;
+    }
 
-/*-------Desktop Media Query-----------*/
+    .hero h2 {
+        font-size: 2.1rem;
+    }
+
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .one {
+        grid-column: 1/3;
+    }
+
+    .two {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .three {
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+
+    .four {
+        grid-column: 1/3;
+    }
+
+    .five {
+        grid-column:1/3;
+    }
+
+    .six {
+        grid-column: 1/2;
+    }
+
+    .seven {
+        grid-column: 2/3;
+    }
+
+
+
+}
+/*=====================END OF TABLET QUERY===========================*/
+
+/*===========================Desktop Media Query===========================*/
 @media screen and (min-width: 1025px) {
 
     .header {
@@ -137,7 +221,7 @@ img {
     }
 
 }
-/*-------END OF DESKTOP QUERY----------*/
+/*===========================END OF DESKTOP QUERY===========================*/
 
 /*-------LARGE SCREEN----------------*/
 @media screen and (min-width: 1850px) {
