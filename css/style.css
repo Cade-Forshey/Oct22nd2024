@@ -12,6 +12,7 @@ font-family: "Road Rage", sans-serif;
 font-family: "Eater", serif;
 font-family: "Irish Grover", system-ui;
 font-family: "Creepster", system-ui;
+font-family: "Nosifer", sans-serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Eater&family=Henny+Penny&family=Irish+Grover&family=Road+Rage&display=swap');
 /*FONTS*/
@@ -54,7 +55,7 @@ a {
     text-transform: uppercase;
     text-align: center;
     display: block;
-    font-family: "Henny Penny", system-ui;
+    font-family: "Nosifer", sans-serif;
     color: #864843;
 }
 
@@ -74,6 +75,27 @@ a {
     background-color: #ff950588;
     box-shadow: 0px, 0px, 14px, 0px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
+}
+
+#hero {
+    background-image: url(../images/2151827517.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    min-height: 300px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    color: #bf3100;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 6px #fff;
+    font-family: "Nosifer", sans-serif;
 }
 
 /*------Responsive Images-------*/
