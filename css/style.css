@@ -103,6 +103,10 @@ img {
     width: 100%;
 }
 
+/*==================================
+          CSS GRID RULES
+==================================*/          
+
 /*------Tablet Media Query------*/
 @media screen and (min-width: 769px) {
  
